@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div id="content"></div>
+  <button id="btn">取消防抖操作</button>
+  
+<script src="./throttle/throttle04.js"></script>
+<script>
+  // 1、防抖定义：
+  // 事件响应函数在一段时间之后才执行，如果该时间段内重复触发，则重新计算执行时间，
+  // 如果预定时间内没有被再次触发，则执行事件响应函数
+//  应用场景：
+/*
+1、scroll事件滚动触发，mousemove 鼠标事件
+2、搜索框输入查询
+3、表单验证
+4、按钮提交事件
+*/
+/*2、节流
+  原理：如果持续触发事件，则每隔一段时间，只执行一次事件
+应用场景：
+1、DOM元素的拖拽功能
+2、计算鼠标移动距离
+3、监听scroll滚动
+
+*/
+</script>
+
+</body>
+
+</html>
+<style>
+  #content{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(205, 134, 240);
+    font-size: 30px;
+    color: brown;
+    text-align: center;
+
+  }
+</style>
